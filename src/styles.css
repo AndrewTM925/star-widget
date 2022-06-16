@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-star-o:before {
+  content: "\f006";
+  color: #5f6368;
+  font-size: 40px;
+}
+
+.fa-star:hover {
+  cursor: pointer;
+}
+
+.fa-star:before {
+  content: "\f005";
+  color: #d50c0cb6;
+  font-size: 40px;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+/* img {
+  height: 300px;
+  width: 300px;
+} */
